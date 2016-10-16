@@ -1,0 +1,38 @@
+{
+  "name": "simple-signal-server",
+  "version": "1.0.0",
+  "description": "Simple webrtc signaling server",
+  "main": "server.js",
+  "author": "Charlie Duong <charlieduong94@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "app-module-path": "^2.1.0",
+    "browser-refresh": "^1.6.0",
+    "custom-logger": "^0.3.1",
+    "fashion-model": "^5.0.18",
+    "git-hooks": "^1.1.6",
+    "node-uuid": "^1.4.7",
+    "socket.io": "^1.5.0",
+    "uws": "^0.10.10"
+  },
+  "devDependencies": {
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlieduong94/simple-signal-server.git"
+  },
+  "keywords": [
+    "webrtc",
+    "signaling",
+    "server"
+  ],
+  "bugs": {
+    "url": "https://github.com/charlieduong94/simple-signal-server/issues"
+  },
+  "homepage": "https://github.com/charlieduong94/simple-signal-server#readme"
+}
